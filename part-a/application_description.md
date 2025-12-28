@@ -68,12 +68,11 @@ Maria- Db acts as the backend of the entire application and is responsible for h
 
 
 #### Middleware
-In terms of middleware and ESB everything is ran through simple PHP based apis.
+In terms of middleware and ESB everything is ran through a simple flask python api.
 
 
 #### Front-end
-From the front end perspective, both mobile and web applications are powered by simple html, css and javascript. This connects to the php endpoints to pull or push data as necessary.
-
+From the front end perspective, both mobile and web applications are powered by a simple REACT Native application that connects to the database via the flask api.
 
 
 ### Limitations and difficult aspects of this domain
