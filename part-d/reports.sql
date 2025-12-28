@@ -82,7 +82,7 @@ GROUP BY mp.provider_id, mp.first_name, mp.last_name
 HAVING COUNT(*) >= 10
 ORDER BY no_show_rate_pct DESC, total_appts DESC;
 
--- query 5 (group by and aggregation)
+-- query 6 (group by and aggregation)
 -- This report allows staff to see how many appoints are set at each clinic per day for the last 14 days. 
 -- This is critical to understand which clinics have the most demand and as such the central body may be able to route more doctors to that area.
 SELECT
