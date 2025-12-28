@@ -18,7 +18,7 @@ The ERD for this project describes the following entities:
 - Provider – Defines the doctors and other medical professionals delivering care.
 - Clinic – Defines the physical facilities where appointments are conducted.
 - Appointment – Defines a time blocked slot scheduled for interactions between patients and providers at a clinic.
-- Appointment_Note – Special entity used to capture notes by a medical provider or outcomes of an appoitment.
+- Appointment_Note – Special entity used to capture notes by a medical provider or outcomes of an appointment.
 - Specialty – Defines the specialty of a particular medical provider.
 - Provider_Specialty – Defines an associative entity that allows the many-to-many relationship between providers and specialties.
 - Medical_License – Special entity used to track a medical provider's license status (valid, expired, suspended, etc)
