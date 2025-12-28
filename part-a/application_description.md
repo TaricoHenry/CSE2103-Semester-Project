@@ -66,28 +66,21 @@ CareConnect architecture is a standard three tiered model based on client server
 #### Database and Back End
 Maria- Db acts as the backend of the entire application and is responsible for hosting and storing all data critical to the normal functioning of the application.  
 
-Deep-dive into the architecture can be found: https:// deep-dive
-
 
 #### Middleware
-In terms of middleware and ESB everything is ran through python based API's. In this way no operation is allowed to be done on the database directly by any client. This vastly improves secruity of the application and helps to centralize logging of all operations being passed through the application.
-
-Deepdive into the middleware architecture can be found: https:deep-dive
+In terms of middleware and ESB everything is ran through simple PHP based apis.
 
 
 #### Front-end
-From the front end perspective, both mobile and web applications are powered by REACT Native due to its versatility and commonnesss throughout the software development industry.
-
-deepdive into the front-end can be found: https: deep-dive
-
+From the front end perspective, both mobile and web applications are powered by simple html, css and javascript. This connects to the php endpoints to pull or push data as necessary.
 
 
 
 ### Limitations and difficult aspects of this domain
 - Given the limited nature of the application it is unable to cover the great amount of customizations that are needed for the Guyana healthcare environment. 
---> many clinics want the ability to track supply usage and tie it back t individual patients
---> clinics and hospitals also like the ability to tie CareConnect to the internal scheduling systems as in many cases the consulting doctors are also the ones that are scheduled for various surgeries and other emergency procedures due to the limited amount of specialists in Guyana.
+- Many clinics may need the ability to track the usage of various supplies and tie it back to individual patients.
+- Some clinics and hospitals may also need the ability to tie CareConnect to their internal scheduling systems as in many cases the consulting doctors are also the ones that are scheduled for various surgeries and other emergency procedures due to the limited number of specialists in Guyana.
 
---> these additional customizations would expand the scope of this project and exceed the guidelines outlined, i.e "domain that is relatively substantial but not enormous" and "a range of five or so entity sets, and a similar number of relationship set".
+These additional customizations would expand the scope of this project and exceed the guidelines outlined in the project description: i.e "domain that is relatively substantial but not enormous" and "a range of five or so entity sets, and a similar number of relationship set".
 
 
